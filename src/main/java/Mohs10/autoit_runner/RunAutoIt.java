@@ -10,7 +10,8 @@ public class RunAutoIt {
         FileWriter htmlReport = null;
         try {
             // Initialize HTML report
-            htmlReport = new FileWriter("C:\\Users\\DELL\\Downloads\\test_reportisafe.html");
+            //htmlReport = new FileWriter("C:\\Users\\DELL\\Downloads\\test_reportisafe.html");
+            htmlReport = new FileWriter("report/InstaSafeReport.html");
             htmlReport.write("<html><head><title>AutoIt Test Report</title></head><body>");
             htmlReport.write("<h1>AutoIt Script Test Execution Report</h1>");
             htmlReport.write("<table border='1'><tr><th>Test Step</th><th>Output</th><th>Status</th></tr>");
